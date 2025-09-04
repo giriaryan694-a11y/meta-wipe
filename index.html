@@ -11,12 +11,19 @@
         <h1>⚡ METAWIPE ⚡</h1>
         <p class="made-by">Made by Aryan Giri</p>
 
-        <input type="file" id="fileInput" multiple>
+        <div id="dropArea" class="drop-area">
+            Drag & Drop files here or click to select
+            <input type="file" id="fileInput" multiple hidden>
+        </div>
+
         <button id="cleanBtn">Clean Metadata</button>
+        <button id="exportLogBtn">Export Log as .txt</button>
 
         <div id="output" class="output-console"></div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.22.0/pdf-lib.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
