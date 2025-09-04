@@ -11,19 +11,16 @@
         <h1>⚡ METAWIPE ⚡</h1>
         <p class="made-by">Made by Aryan Giri</p>
 
-        <div id="dropArea" class="drop-area">
-            Drag & Drop files here or click to select
-            <input type="file" id="fileInput" multiple hidden>
-        </div>
-
+        <input type="file" id="fileInput" multiple>
         <button id="cleanBtn">Clean Metadata</button>
-        <button id="exportLogBtn">Export Log as .txt</button>
 
         <div id="output" class="output-console"></div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.22.0/pdf-lib.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <!-- PDF-lib for PDF metadata removal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.18.0/pdf-lib.min.js"></script>
+    <!-- Piexifjs for JPEG/PNG EXIF removal -->
+    <script src="https://cdn.jsdelivr.net/npm/piexifjs"></script>
     <script src="script.js"></script>
 </body>
 </html>
