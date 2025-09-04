@@ -5,7 +5,7 @@
 - Clean image metadata (EXIF).
 - Process PDF files (basic metadata removal).
 - Console-style output for real-time processing logs.
-- Fully offline and lightweight — no backend required.
+  
 
 ### Access : https://giriaryan694-a11y.github.io/meta-wipe/
 
