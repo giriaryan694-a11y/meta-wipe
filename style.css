@@ -1,49 +1,58 @@
 body {
-    background: #0d0d0d;
+    background-color: #0f0f0f;
     color: #00ff00;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 .container {
     text-align: center;
-    border: 2px solid #00ff00;
-    padding: 20px;
-    border-radius: 10px;
-    width: 90%;
-    max-width: 500px;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+h1 {
+    margin-bottom: 10px;
 }
 
 .made-by {
     font-size: 0.9em;
-    color: #ffcc00;
+    margin-bottom: 20px;
+    color: #00cc00;
 }
 
 input[type="file"] {
-    margin: 10px 0;
+    margin-bottom: 15px;
 }
 
 button {
     padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    background: #00ff00;
+    background-color: #00ff00;
+    color: #0f0f0f;
     border: none;
-    color: #0d0d0d;
-    border-radius: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00cc00;
 }
 
 .output-console {
-    margin-top: 15px;
-    background: #000000;
-    color: #00ff00;
-    padding: 10px;
+    margin-top: 20px;
     text-align: left;
-    height: 200px;
+    max-height: 300px;
     overflow-y: auto;
-    font-size: 0.9em;
+    padding: 10px;
     border: 1px solid #00ff00;
+    border-radius: 6px;
+    background-color: #000000;
+    white-space: pre-wrap;
 }
