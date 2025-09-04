@@ -1,69 +1,60 @@
-
 body {
-    margin: 0;
-    padding: 0;
+    background-color: #111;
+    color: #00ff00;
     font-family: 'Courier New', monospace;
-    background: #0b0c10;
-    color: #00ff99;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .container {
-    text-align: center;
-    background: #1f1f1f;
-    padding: 30px;
-    border: 2px solid #00ff99;
-    border-radius: 15px;
+    background-color: #000;
+    padding: 20px;
+    border: 2px solid #00ff00;
+    border-radius: 10px;
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .made-by {
+    text-align: center;
     font-size: 0.9em;
-    color: #0ff;
-    margin-bottom: 20px;
-}
-
-input, button {
-    margin: 10px 0;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-}
-
-input {
-    width: 80%;
-    background: #111;
     color: #0f0;
-    border: 2px solid #0f0;
 }
 
-button {
+.drop-area {
+    border: 2px dashed #00ff00;
+    padding: 30px;
+    margin: 20px 0;
+    text-align: center;
     cursor: pointer;
-    background: #00ff99;
-    color: #0b0c10;
-    font-weight: bold;
-    border: 2px solid #0b0c10;
-    transition: all 0.2s;
-}
-
-button:hover {
-    background: #0b0c10;
-    color: #00ff99;
 }
 
 .output-console {
-    text-align: left;
-    background: #111;
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 10px;
+    background-color: #000;
+    border: 1px solid #00ff00;
+    padding: 10px;
     height: 200px;
     overflow-y: auto;
-    border: 2px solid #00ff99;
+    white-space: pre-wrap;
+    font-size: 0.9em;
+}
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 2px solid #00ff00;
+    background-color: #000;
+    color: #00ff00;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0a0a0a;
 }
