@@ -22,13 +22,6 @@ body {
     max-width: 500px;
 }
 
-h1 {
-    font-size: 2em;
-    margin-bottom: 5px;
-    color: #00ff99; /* neon color stays */
-    text-shadow: none; /* remove shine */
-}
-
 .made-by {
     font-size: 0.9em;
     color: #0ff;
